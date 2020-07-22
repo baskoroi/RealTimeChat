@@ -44,6 +44,11 @@ struct ChatView: View {
                     if let answer = answerValue {
                         self.answers.append(answer)
                     }
+                    
+                    // re-sort answers by their timestamps
+                    self.answers.sort {
+                        $0.timestamp < $1.timestamp
+                    }
                 }
             }
             HStack(alignment: .bottom) {

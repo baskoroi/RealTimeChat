@@ -17,11 +17,12 @@ class AnswerService: ObservableObject {
     func observeIncomingAnswers(completion: @escaping (AnswerViewModel?) -> Void) {
         
         chatHandle = chatRef.observe(.childAdded, with: { (message) in
-            if let value = message.value as? [String: String] {
+            if let value = message.value as? [String: Any] {
                 
-                let viewModel = AnswerViewModel(nickname: value["nickname"],
-                                                message: value["message"],
-                                                avatarURL: value["avatarURL"],
+                let viewModel = AnswerViewModel(nickname: value["nickname"] as? String,
+                                                message: value["message"] as? String,
+                                                avatarURL: value["avatarURL"] as? String,
+                                                timestamp: Date().timeIntervalSince1970,
                                                 foregroundColor: .white,
                                                 backgroundColor: .blue)
                 
@@ -39,6 +40,7 @@ class AnswerService: ObservableObject {
            "nickname": nickname,
            "avatarURL": avatarURL,
            "message": message,
+           "timestamp": Date().timeIntervalSince1970,
         ])
     }
     

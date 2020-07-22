@@ -10,6 +10,9 @@
 		1AE69853F8D8F86A1C7BBF41 /* Pods_RealTimeChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 902AFC77D76CBE0B7913D31F /* Pods_RealTimeChat.framework */; };
 		CC12859524C720BA00C41D1E /* KeyboardResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC12859424C720BA00C41D1E /* KeyboardResponder.swift */; };
 		CC18456024C718A200149934 /* AnswerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC18455F24C718A200149934 /* AnswerService.swift */; };
+		CC32DE1B24C7F2BA005E3116 /* AvatarSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC32DE1A24C7F2BA005E3116 /* AvatarSelectionView.swift */; };
+		CC32DE1D24C7F38A005E3116 /* MemberService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC32DE1C24C7F38A005E3116 /* MemberService.swift */; };
+		CC32DE1F24C7F3E6005E3116 /* MemberViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC32DE1E24C7F3E6005E3116 /* MemberViewModel.swift */; };
 		CC3BA94224C68C9F00449297 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3BA94124C68C9F00449297 /* AppDelegate.swift */; };
 		CC3BA94424C68C9F00449297 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3BA94324C68C9F00449297 /* SceneDelegate.swift */; };
 		CC3BA94824C68CA200449297 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC3BA94724C68CA200449297 /* Assets.xcassets */; };
@@ -28,6 +31,9 @@
 		902AFC77D76CBE0B7913D31F /* Pods_RealTimeChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealTimeChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC12859424C720BA00C41D1E /* KeyboardResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardResponder.swift; sourceTree = "<group>"; };
 		CC18455F24C718A200149934 /* AnswerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerService.swift; sourceTree = "<group>"; };
+		CC32DE1A24C7F2BA005E3116 /* AvatarSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarSelectionView.swift; sourceTree = "<group>"; };
+		CC32DE1C24C7F38A005E3116 /* MemberService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberService.swift; sourceTree = "<group>"; };
+		CC32DE1E24C7F3E6005E3116 /* MemberViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberViewModel.swift; sourceTree = "<group>"; };
 		CC3BA93E24C68C9F00449297 /* RealTimeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealTimeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC3BA94124C68C9F00449297 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC3BA94324C68C9F00449297 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				CC18455F24C718A200149934 /* AnswerService.swift */,
+				CC32DE1C24C7F38A005E3116 /* MemberService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -145,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				CCAFCB3A24C6C30900036B28 /* AnswerViewModel.swift */,
+				CC32DE1E24C7F3E6005E3116 /* MemberViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -153,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				CCAFCB3624C6B90F00036B28 /* ChatView.swift */,
+				CC32DE1A24C7F2BA005E3116 /* AvatarSelectionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -278,9 +287,12 @@
 				CC3BA94224C68C9F00449297 /* AppDelegate.swift in Sources */,
 				CC3BA94424C68C9F00449297 /* SceneDelegate.swift in Sources */,
 				CC5637B824C68FCC003E08FE /* Camp.swift in Sources */,
+				CC32DE1B24C7F2BA005E3116 /* AvatarSelectionView.swift in Sources */,
+				CC32DE1D24C7F38A005E3116 /* MemberService.swift in Sources */,
 				CC12859524C720BA00C41D1E /* KeyboardResponder.swift in Sources */,
 				CCAFCB3B24C6C30900036B28 /* AnswerViewModel.swift in Sources */,
 				CCAFCB3724C6B90F00036B28 /* ChatView.swift in Sources */,
+				CC32DE1F24C7F3E6005E3116 /* MemberViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

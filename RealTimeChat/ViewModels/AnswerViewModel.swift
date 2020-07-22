@@ -15,6 +15,7 @@ struct AnswerViewModel: Hashable {
     var nickname: String?
     var message: String?
     var avatarURL: String?
+    var timestamp: TimeInterval
     var foregroundColor: Color = .white
     var backgroundColor: Color = .blue
 }

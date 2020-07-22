@@ -1,5 +1,5 @@
 //
-//  Person.swift
+//  Player.swift
 //  RealTimeChat
 //
 //  Created by Baskoro Indrayana on 07/21/20.
@@ -12,8 +12,8 @@ struct Member {
     let camp: Camp
     let isHost: Bool
     let nickname: String
-//    let stageName: String
-//    let realName: String
+    var stageName: String?
+    var realName: String?
     let avatarURL: String
 }
 
