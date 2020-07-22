@@ -63,6 +63,8 @@ struct ChatView: View {
     
     func sendMessage() {
         
+        guard !myMessage.isEmpty else { return }
+        
         // create new message data
         answerService.sendAnswer(nickname: nickname,
                                  avatarURL: avatarURL,
