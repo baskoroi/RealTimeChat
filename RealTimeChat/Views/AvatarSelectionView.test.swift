@@ -12,13 +12,18 @@ struct AvatarSelectionView: View {
     
     @State private var isAdded = false
     var memberService = MemberService()
+    var questionService = QuestionService()
     
     var body: some View {
-        Button(action: {
-            self.memberService.create(campCode: "CAMPRET", member: MemberViewModel(isHost: false, stageName: "Felix", realName: "Felipe Andreoli", avatarURL: "cat"))
-        }) {
-            Text("Create member")
-        }
+//        Button(action: {
+//            self.memberService.create(campCode: "CAMPRET", member: MemberViewModel(isHost: false, stageName: "Felix", realName: "Felipe Andreoli", avatarURL: "cat"))
+//        }) {
+//            Text("Create member")
+//        }
+        
+       
+        Text("Select avatar here..")
+        
         
 //            self.memberService.create(campCode: "CAMPTEST", member: MemberViewModel(isHost: false, stageName: "sapiku", realName: "Saitama Kampret", avatarURL: "cow"))
 //            self.memberService.observeCreation { (isCreated) in

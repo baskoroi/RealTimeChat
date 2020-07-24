@@ -11,9 +11,8 @@ import Foundation
 struct Member {
     let camp: Camp
     let isHost: Bool
-    let nickname: String
-    var stageName: String?
-    var realName: String?
+    let stageName: String
+    let realName: String
     let avatarURL: String
 }
 
