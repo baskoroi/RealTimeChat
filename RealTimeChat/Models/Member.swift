@@ -29,6 +29,6 @@ extension Member {
     }
     
     static func getRandomAvatar() -> String {
-        return ["cow", "dog", "fox", "penguin", "rabbit", "tiger",].randomElement() ?? "cow"
+        return "binatang-\(Int.random(in: 1...16))"
     }
 }

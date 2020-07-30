@@ -18,12 +18,33 @@
 		CC3BA94824C68CA200449297 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC3BA94724C68CA200449297 /* Assets.xcassets */; };
 		CC3BA94B24C68CA200449297 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC3BA94A24C68CA200449297 /* Preview Assets.xcassets */; };
 		CC3BA94E24C68CA200449297 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3BA94C24C68CA200449297 /* LaunchScreen.storyboard */; };
+		CC4F1A7824D29E7F00C8256B /* FullScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4F1A7724D29E7F00C8256B /* FullScreen.swift */; };
 		CC5637B824C68FCC003E08FE /* Camp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5637B724C68FCC003E08FE /* Camp.swift */; };
 		CC5637BA24C690A9003E08FE /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5637B924C690A9003E08FE /* Member.swift */; };
+		CC75F30C24D023F5005350EE /* AllAnswersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC75F30B24D023F5005350EE /* AllAnswersView.swift */; };
 		CC9AF82124C8134D00A63802 /* QuestionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9AF82024C8134D00A63802 /* QuestionService.swift */; };
 		CC9AF82524C815CC00A63802 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9AF82424C815CC00A63802 /* Question.swift */; };
 		CCAFCB3724C6B90F00036B28 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAFCB3624C6B90F00036B28 /* ChatView.swift */; };
 		CCAFCB3B24C6C30900036B28 /* AnswerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAFCB3A24C6C30900036B28 /* AnswerViewModel.swift */; };
+		CCD4858924D0270E005F86F7 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCD4857724D0270D005F86F7 /* Montserrat-Thin.ttf */; };
+		CCD4858A24D0270E005F86F7 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCD4857824D0270D005F86F7 /* Montserrat-BlackItalic.ttf */; };
+		CCD4858B24D0270E005F86F7 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCD4857924D0270D005F86F7 /* Montserrat-ExtraBoldItalic.ttf */; };
+		CCD4858C24D0270E005F86F7 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCD4857A24D0270D005F86F7 /* Montserrat-SemiBold.ttf */; };
+		CCD4858D24D0270E005F86F7 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCD4857B24D0270D005F86F7 /* Montserrat-BoldItalic.ttf */; };
+		CCD4858E24D0270E005F86F7 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCD4857C24D0270D005F86F7 /* Montserrat-Light.ttf */; };
+		CCD4858F24D0270E005F86F7 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCD4857D24D0270D005F86F7 /* Montserrat-ThinItalic.ttf */; };
+		CCD4859024D0270E005F86F7 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCD4857E24D0270D005F86F7 /* Montserrat-Black.ttf */; };
+		CCD4859124D0270E005F86F7 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCD4857F24D0270D005F86F7 /* Montserrat-Italic.ttf */; };
+		CCD4859224D0270E005F86F7 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCD4858024D0270D005F86F7 /* Montserrat-Regular.ttf */; };
+		CCD4859324D0270E005F86F7 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCD4858124D0270D005F86F7 /* Montserrat-Bold.ttf */; };
+		CCD4859424D0270E005F86F7 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCD4858224D0270D005F86F7 /* Montserrat-ExtraBold.ttf */; };
+		CCD4859524D0270E005F86F7 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCD4858324D0270D005F86F7 /* Montserrat-LightItalic.ttf */; };
+		CCD4859624D0270E005F86F7 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCD4858424D0270E005F86F7 /* Montserrat-Medium.ttf */; };
+		CCD4859724D0270E005F86F7 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCD4858524D0270E005F86F7 /* Montserrat-ExtraLightItalic.ttf */; };
+		CCD4859824D0270E005F86F7 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCD4858624D0270E005F86F7 /* Montserrat-MediumItalic.ttf */; };
+		CCD4859924D0270E005F86F7 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCD4858724D0270E005F86F7 /* Montserrat-SemiBoldItalic.ttf */; };
+		CCD4859A24D0270E005F86F7 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CCD4858824D0270E005F86F7 /* Montserrat-ExtraLight.ttf */; };
+		CCD4859C24D02EF2005F86F7 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD4859B24D02EF2005F86F7 /* MessageCell.swift */; };
 		CCD6013324C93FAC00F5C7F1 /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD6013224C93FAC00F5C7F1 /* QuestionViewModel.swift */; };
 		CCD6013524C9498D00F5C7F1 /* FinalRoundQuestionInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD6013424C9498D00F5C7F1 /* FinalRoundQuestionInputView.swift */; };
 		CCD8901C24C696FC005B8C6E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CCD8901B24C696FC005B8C6E /* GoogleService-Info.plist */; };
@@ -45,12 +66,33 @@
 		CC3BA94A24C68CA200449297 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CC3BA94D24C68CA200449297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC3BA94F24C68CA200449297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC4F1A7724D29E7F00C8256B /* FullScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreen.swift; sourceTree = "<group>"; };
 		CC5637B724C68FCC003E08FE /* Camp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camp.swift; sourceTree = "<group>"; };
 		CC5637B924C690A9003E08FE /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		CC75F30B24D023F5005350EE /* AllAnswersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllAnswersView.swift; sourceTree = "<group>"; };
 		CC9AF82024C8134D00A63802 /* QuestionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionService.swift; sourceTree = "<group>"; };
 		CC9AF82424C815CC00A63802 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		CCAFCB3624C6B90F00036B28 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
 		CCAFCB3A24C6C30900036B28 /* AnswerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewModel.swift; sourceTree = "<group>"; };
+		CCD4857724D0270D005F86F7 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		CCD4857824D0270D005F86F7 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		CCD4857924D0270D005F86F7 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		CCD4857A24D0270D005F86F7 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		CCD4857B24D0270D005F86F7 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CCD4857C24D0270D005F86F7 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		CCD4857D24D0270D005F86F7 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		CCD4857E24D0270D005F86F7 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		CCD4857F24D0270D005F86F7 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		CCD4858024D0270D005F86F7 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		CCD4858124D0270D005F86F7 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		CCD4858224D0270D005F86F7 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		CCD4858324D0270D005F86F7 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		CCD4858424D0270E005F86F7 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		CCD4858524D0270E005F86F7 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		CCD4858624D0270E005F86F7 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		CCD4858724D0270E005F86F7 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		CCD4858824D0270E005F86F7 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		CCD4859B24D02EF2005F86F7 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		CCD6013224C93FAC00F5C7F1 /* QuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
 		CCD6013424C9498D00F5C7F1 /* FinalRoundQuestionInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalRoundQuestionInputView.swift; sourceTree = "<group>"; };
 		CCD8901B24C696FC005B8C6E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -129,6 +171,7 @@
 				CCAFCB3924C6C2F100036B28 /* Views */,
 				CC18456124C718A600149934 /* Services */,
 				CC12859124C71EE600C41D1E /* Utilities */,
+				CCD4857624D026E0005F86F7 /* Fonts */,
 				CC3BA94124C68C9F00449297 /* AppDelegate.swift */,
 				CC3BA94324C68C9F00449297 /* SceneDelegate.swift */,
 				CC3BA94724C68CA200449297 /* Assets.xcassets */,
@@ -146,6 +189,14 @@
 				CC3BA94A24C68CA200449297 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CC4F1A7624D29E6B00C8256B /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				CC4F1A7724D29E7F00C8256B /* FullScreen.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 		CC5637B624C68F38003E08FE /* Models */ = {
@@ -171,11 +222,47 @@
 		CCAFCB3924C6C2F100036B28 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CCD4859D24D02EFF005F86F7 /* Components */,
+				CC4F1A7624D29E6B00C8256B /* Modifiers */,
 				CCAFCB3624C6B90F00036B28 /* ChatView.swift */,
 				CC32DE1A24C7F2BA005E3116 /* AvatarSelectionView.test.swift */,
 				CCD6013424C9498D00F5C7F1 /* FinalRoundQuestionInputView.swift */,
+				CC75F30B24D023F5005350EE /* AllAnswersView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		CCD4857624D026E0005F86F7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CCD4857E24D0270D005F86F7 /* Montserrat-Black.ttf */,
+				CCD4857824D0270D005F86F7 /* Montserrat-BlackItalic.ttf */,
+				CCD4858124D0270D005F86F7 /* Montserrat-Bold.ttf */,
+				CCD4857B24D0270D005F86F7 /* Montserrat-BoldItalic.ttf */,
+				CCD4858224D0270D005F86F7 /* Montserrat-ExtraBold.ttf */,
+				CCD4857924D0270D005F86F7 /* Montserrat-ExtraBoldItalic.ttf */,
+				CCD4858824D0270E005F86F7 /* Montserrat-ExtraLight.ttf */,
+				CCD4858524D0270E005F86F7 /* Montserrat-ExtraLightItalic.ttf */,
+				CCD4857F24D0270D005F86F7 /* Montserrat-Italic.ttf */,
+				CCD4857C24D0270D005F86F7 /* Montserrat-Light.ttf */,
+				CCD4858324D0270D005F86F7 /* Montserrat-LightItalic.ttf */,
+				CCD4858424D0270E005F86F7 /* Montserrat-Medium.ttf */,
+				CCD4858624D0270E005F86F7 /* Montserrat-MediumItalic.ttf */,
+				CCD4858024D0270D005F86F7 /* Montserrat-Regular.ttf */,
+				CCD4857A24D0270D005F86F7 /* Montserrat-SemiBold.ttf */,
+				CCD4858724D0270E005F86F7 /* Montserrat-SemiBoldItalic.ttf */,
+				CCD4857724D0270D005F86F7 /* Montserrat-Thin.ttf */,
+				CCD4857D24D0270D005F86F7 /* Montserrat-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CCD4859D24D02EFF005F86F7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CCD4859B24D02EF2005F86F7 /* MessageCell.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,9 +325,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCD4859924D0270E005F86F7 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				CCD4858E24D0270E005F86F7 /* Montserrat-Light.ttf in Resources */,
+				CCD4858D24D0270E005F86F7 /* Montserrat-BoldItalic.ttf in Resources */,
+				CCD4859224D0270E005F86F7 /* Montserrat-Regular.ttf in Resources */,
+				CCD4858924D0270E005F86F7 /* Montserrat-Thin.ttf in Resources */,
 				CC3BA94E24C68CA200449297 /* LaunchScreen.storyboard in Resources */,
+				CCD4859424D0270E005F86F7 /* Montserrat-ExtraBold.ttf in Resources */,
+				CCD4859324D0270E005F86F7 /* Montserrat-Bold.ttf in Resources */,
 				CCD8901C24C696FC005B8C6E /* GoogleService-Info.plist in Resources */,
+				CCD4859024D0270E005F86F7 /* Montserrat-Black.ttf in Resources */,
+				CCD4858F24D0270E005F86F7 /* Montserrat-ThinItalic.ttf in Resources */,
+				CCD4859824D0270E005F86F7 /* Montserrat-MediumItalic.ttf in Resources */,
+				CCD4858A24D0270E005F86F7 /* Montserrat-BlackItalic.ttf in Resources */,
+				CCD4858B24D0270E005F86F7 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
 				CC3BA94B24C68CA200449297 /* Preview Assets.xcassets in Resources */,
+				CCD4859524D0270E005F86F7 /* Montserrat-LightItalic.ttf in Resources */,
+				CCD4858C24D0270E005F86F7 /* Montserrat-SemiBold.ttf in Resources */,
+				CCD4859A24D0270E005F86F7 /* Montserrat-ExtraLight.ttf in Resources */,
+				CCD4859724D0270E005F86F7 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				CCD4859124D0270E005F86F7 /* Montserrat-Italic.ttf in Resources */,
+				CCD4859624D0270E005F86F7 /* Montserrat-Medium.ttf in Resources */,
 				CC3BA94824C68CA200449297 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,14 +405,17 @@
 				CC3BA94424C68C9F00449297 /* SceneDelegate.swift in Sources */,
 				CC5637B824C68FCC003E08FE /* Camp.swift in Sources */,
 				CC32DE1B24C7F2BA005E3116 /* AvatarSelectionView.test.swift in Sources */,
+				CC75F30C24D023F5005350EE /* AllAnswersView.swift in Sources */,
 				CCD6013524C9498D00F5C7F1 /* FinalRoundQuestionInputView.swift in Sources */,
 				CC32DE1D24C7F38A005E3116 /* MemberService.swift in Sources */,
 				CC12859524C720BA00C41D1E /* KeyboardResponder.swift in Sources */,
 				CCD6013324C93FAC00F5C7F1 /* QuestionViewModel.swift in Sources */,
 				CC9AF82524C815CC00A63802 /* Question.swift in Sources */,
 				CCAFCB3B24C6C30900036B28 /* AnswerViewModel.swift in Sources */,
+				CCD4859C24D02EF2005F86F7 /* MessageCell.swift in Sources */,
 				CC9AF82124C8134D00A63802 /* QuestionService.swift in Sources */,
 				CCAFCB3724C6B90F00036B28 /* ChatView.swift in Sources */,
+				CC4F1A7824D29E7F00C8256B /* FullScreen.swift in Sources */,
 				CC32DE1F24C7F3E6005E3116 /* MemberViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

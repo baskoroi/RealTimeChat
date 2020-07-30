@@ -16,19 +16,19 @@ struct ChatView: View {
     @State var myMessage = ""
     
     @ObservedObject var answerService = AnswerService()
-    @State var answers = [AnswerViewModel]()
+//    @State var answers = [AnswerViewModel]()
+    @State private var answers: [AnswerViewModel] = [
+        AnswerViewModel(nickname: "maung", message: "beliminumnyadulukak. huruf kecil semua", avatarURL: "binatang-1", timestamp: Date().timeIntervalSince1970, foregroundColor: .black, backgroundColor: .white),
+        AnswerViewModel(nickname: "BIBIBIBI", message: "admin123", avatarURL: "binatang-2", timestamp: Date().timeIntervalSince1970, foregroundColor: .black, backgroundColor: .white),
+        AnswerViewModel(nickname: "BIBIBIBI", message: "admin123", isMyOwn: true, avatarURL: "binatang-3", timestamp: Date().timeIntervalSince1970, foregroundColor: .black, backgroundColor: .white),
+    ]
     
     @ObservedObject var keyboard = KeyboardResponder()
     
     init() {
-        if #available(iOS 14.0, *) {
-            // iOS 14 doesn't have extra separators below the list by default.
-            UITableView.appearance().tableFooterView = UIView()
-        } else {
-            // To remove only extra separators below the list:
-            UITableView.appearance().tableFooterView = UIView()
-        }
-
+        // To remove only extra separators below the list:
+        UITableView.appearance().tableFooterView = UIView()
+        
         // To remove all separators including the actual ones:
         UITableView.appearance().separatorStyle = .none
     }
@@ -86,22 +86,4 @@ struct ChatView_Previews: PreviewProvider {
     }
 }
 
-struct MessageCell: View {
-    
-    let viewModel: AnswerViewModel!
-    
-    var body: some View {
-        HStack {
-            Image(viewModel.avatarURL!).resizable().aspectRatio(contentMode: .fit)
-                .frame(width: 36, height: 36, alignment: .leading)
-            VStack(alignment: .leading) {
-                Text(viewModel.nickname!).font(.caption).bold()
-                Text(viewModel.message!)
-                    .padding(.all, 12)
-                    .background(viewModel.backgroundColor)
-                    .cornerRadius(12)
-                    .foregroundColor(viewModel.foregroundColor)
-            }
-        }
-    }
-}
+
