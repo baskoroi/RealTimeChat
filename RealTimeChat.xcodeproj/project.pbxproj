@@ -19,6 +19,8 @@
 		CC3BA94B24C68CA200449297 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC3BA94A24C68CA200449297 /* Preview Assets.xcassets */; };
 		CC3BA94E24C68CA200449297 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3BA94C24C68CA200449297 /* LaunchScreen.storyboard */; };
 		CC4F1A7824D29E7F00C8256B /* FullScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4F1A7724D29E7F00C8256B /* FullScreen.swift */; };
+		CC4F1A7A24D29EC800C8256B /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4F1A7924D29EC800C8256B /* QuestionView.swift */; };
+		CC4F1A7C24D29FFB00C8256B /* CharacterLimitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4F1A7B24D29FFB00C8256B /* CharacterLimitManager.swift */; };
 		CC5637B824C68FCC003E08FE /* Camp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5637B724C68FCC003E08FE /* Camp.swift */; };
 		CC5637BA24C690A9003E08FE /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5637B924C690A9003E08FE /* Member.swift */; };
 		CC75F30C24D023F5005350EE /* AllAnswersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC75F30B24D023F5005350EE /* AllAnswersView.swift */; };
@@ -67,6 +69,8 @@
 		CC3BA94D24C68CA200449297 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC3BA94F24C68CA200449297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC4F1A7724D29E7F00C8256B /* FullScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreen.swift; sourceTree = "<group>"; };
+		CC4F1A7924D29EC800C8256B /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		CC4F1A7B24D29FFB00C8256B /* CharacterLimitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterLimitManager.swift; sourceTree = "<group>"; };
 		CC5637B724C68FCC003E08FE /* Camp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camp.swift; sourceTree = "<group>"; };
 		CC5637B924C690A9003E08FE /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
 		CC75F30B24D023F5005350EE /* AllAnswersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllAnswersView.swift; sourceTree = "<group>"; };
@@ -131,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				CC12859424C720BA00C41D1E /* KeyboardResponder.swift */,
+				CC4F1A7B24D29FFB00C8256B /* CharacterLimitManager.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -228,6 +233,7 @@
 				CC32DE1A24C7F2BA005E3116 /* AvatarSelectionView.test.swift */,
 				CCD6013424C9498D00F5C7F1 /* FinalRoundQuestionInputView.swift */,
 				CC75F30B24D023F5005350EE /* AllAnswersView.swift */,
+				CC4F1A7924D29EC800C8256B /* QuestionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -408,10 +414,12 @@
 				CC75F30C24D023F5005350EE /* AllAnswersView.swift in Sources */,
 				CCD6013524C9498D00F5C7F1 /* FinalRoundQuestionInputView.swift in Sources */,
 				CC32DE1D24C7F38A005E3116 /* MemberService.swift in Sources */,
+				CC4F1A7C24D29FFB00C8256B /* CharacterLimitManager.swift in Sources */,
 				CC12859524C720BA00C41D1E /* KeyboardResponder.swift in Sources */,
 				CCD6013324C93FAC00F5C7F1 /* QuestionViewModel.swift in Sources */,
 				CC9AF82524C815CC00A63802 /* Question.swift in Sources */,
 				CCAFCB3B24C6C30900036B28 /* AnswerViewModel.swift in Sources */,
+				CC4F1A7A24D29EC800C8256B /* QuestionView.swift in Sources */,
 				CCD4859C24D02EF2005F86F7 /* MessageCell.swift in Sources */,
 				CC9AF82124C8134D00A63802 /* QuestionService.swift in Sources */,
 				CCAFCB3724C6B90F00036B28 /* ChatView.swift in Sources */,

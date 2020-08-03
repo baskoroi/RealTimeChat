@@ -16,8 +16,8 @@ struct MessageCell: View {
     let messageFont = Font.custom("Montserrat-Regular", size: 16)
     
     public var body: some View {
-        if viewModel.isMyOwn {
-            HStack {
+        HStack {
+            if viewModel.isMyOwn {
                 Spacer()
                 VStack(alignment: .trailing) {
                     Text("(you) \(viewModel.nickname!)").font(nicknameFont).bold()
@@ -37,9 +37,7 @@ struct MessageCell: View {
                         .aspectRatio(contentMode: .fit)
                         .frame(width: 42, height: 42, alignment: .center)
                 }
-            }.padding(.horizontal, 16)
-        } else {
-            HStack {
+            } else {
                 ZStack(alignment: Alignment(horizontal: .center, vertical: .center)) {
                     Image("avatarback")
                         .resizable()
@@ -59,8 +57,8 @@ struct MessageCell: View {
                         .foregroundColor(viewModel.foregroundColor)
                 }
                 Spacer()
-            }.padding(.horizontal, 16)
-        }
+            }
+        }.padding(.horizontal, 16)
     }
 }
 
